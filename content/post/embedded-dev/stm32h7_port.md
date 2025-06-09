@@ -102,7 +102,7 @@ _sidata = LOADADDR(.data);
 
 这个data段里保存的就是初始化值不为0的数据，当然它不包括局部变量，因为局部变量在栈上。需要注意的是，初始化值不为0的数据需要在flash中保存，再拷贝到ram的data段里。因为ram断电丢数据，丢完程序已经不知道你初始化值到底多少了，因此一定要在flash上记录这些值是多少。拷贝这一过程我们需要结合`startup_stm32h7b0xx.s`启动文件来看：
 
-```assembly
+```armasm
 Reset_Handler:
   ldr   sp, =_estack      /* set stack pointer */
 
