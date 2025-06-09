@@ -1,17 +1,13 @@
 ---
-title: "STM32H7系列在GCC环境下的ld链接文件配置"
-description: "STM32H7B0开发描述"
-keywords: "stm32h7,openocd,gcc,链接文件"
-
+title: STM32H7系列在GCC环境下的ld链接文件配置
+keywords: stm32h7,openocd,gcc,链接文件
 date: 2024-08-12T14:41:50+08:00
 lastmod: 2024-08-12T14:41:50+08:00
-
 categories:
   - 嵌入式开发
 tags:
   - stm32
   - gcc
-
 toc: true
 ---
 
