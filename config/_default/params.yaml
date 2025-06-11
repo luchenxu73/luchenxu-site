@@ -210,7 +210,7 @@ linksSets:
 # Links of your friends
 # Usage: `Key: name || permalink`
 links:
-  # link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
+  link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
   # link1: 凡梦星尘空间站 || https://lisenhui.cn
 
 # 文章目录显示
