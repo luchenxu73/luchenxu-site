@@ -79,7 +79,7 @@ MEMORY
 
 接下来我们看data段：
 
-```c
+```linker-script
 /* used by the startup to initialize data */
 _sidata = LOADADDR(.data);
 
